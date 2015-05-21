@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mail Post Passwords v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-22 00:10:05+0200\n"
+"Last-Translator: holzhannes <holzhannes@users.noreply.github.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: mail-post-password.php:0
+#@ mailpp
+msgid "Mail Post Passwords"
+msgstr "Mail Post Passwords"
+
+#. translators: plugin header field 'Description'
+#: mail-post-password.php:0
+#@ mailpp
+msgid "Das Passwort welches für Beiträge oder Seiten erstellt wurde kann von bestimmten Nutzern (hinterlegte E-Mail-Adressen, oder Domainendung) angefordert werden. In der E-Mail erhalten die Personen dann das Passwort. Falls das Plugin Post Password Token installiert ist enhält die E-Mail auch einen direkten Link. Achtung dieses Plugin setzt für alle Beiträge und Seiten das gleiche Passwort. Das Plugin erneuert dieses Passwort in fest einstellbaren Abständen."
+msgstr "Post and page password can be requested by specific users (stored e-mail addresses, or domain endings). In the email, the person will receive the password. If the plug-in post password token is installed the e-mail also contains a direct link to access the post or page. Warning, this plugin uses the same password for all posts and pages. The plugin will renewed this password in fixed adjustable intervals."
+
+#. translators: plugin header field 'Author'
+#: mail-post-password.php:0
+#@ mailpp
+msgid "holzhannes"
+msgstr "holzhannes"
+
+#. translators: plugin header field 'Version'
+#: mail-post-password.php:0
+#@ mailpp
+msgid "1.0"
+msgstr "1.0"
+
+#: mail-post-password.php:96
+#@ mailpp
+msgid "Benutzerdefinierte Zeit"
+msgstr "user defined time"
+
+#: mail-post-password.php:182
+#@ mailpp
+msgid "Die Internetseite kann mit folgenden Link direkt angesehen werden"
+msgstr "The website can be viewed directly with the link below"
+
+#: mail-post-password.php:187
+#@ mailpp
+msgid "Das Passwort für die Seite lautet"
+msgstr "The password for the page is"
+
+#: mail-post-password.php:189
+#@ mailpp
+msgid "Link zur Seite"
+msgstr "Link to page"
+
+#: mail-post-password.php:190
+#@ mailpp
+msgid "Der Link und das Passwort sind nur begrenzt gültig!"
+msgstr "The link and the password are only valid for a specific time!"
+
+#: mail-post-password.php:207
+#@ mailpp
+msgid "Zugangsdaten"
+msgstr "access"
+
+#: mail-post-password.php:208
+#@ mailpp
+msgid "Eine E-Mail wurde versendet!"
+msgstr "A email was sent!"
+
+#: mail-post-password.php:210
+#@ mailpp
+msgid "Fehler beim senden der E-Mail! Bitte erneut versuchen oder eine_n Administrator_in kontaktieren."
+msgstr "Error sending email! Please try it again or contact an adminstrator."
+
+#: mail-post-password.php:213
+#@ mailpp
+msgid "Diese E-Mail-Adresse ist nicht hinterlegt!"
+msgstr "Sorry this email is not in our database!"
+
+#: mail-post-password.php:225
+#@ default
+msgid "Um den Inhalt zu sehen ist ein Passwort einzugeben:"
+msgstr ""
+
+#: mail-post-password.php:225
+#: mail-post-password.php:316
+#@ default
+#@ mailpp
+msgid "Password"
+msgstr "password"
+
+#: mail-post-password.php:225
+#@ mailpp
+msgid "Passwort"
+msgstr "password"
+
+#: mail-post-password.php:225
+#@ default
+msgid "Absenden"
+msgstr ""
+
+#: mail-post-password.php:227
+#@ mailpp
+msgid "Passwort per E-Mail anfordern. Nur möglich wenn die E-Mail-Adresse hinterlegt ist."
+msgstr "Request password by mail. Only possible if your email address is in our database."
+
+#: mail-post-password.php:228
+#@ mailpp
+msgid "E-Mail-Adresse"
+msgstr "email address"
+
+#: mail-post-password.php:231
+#@ mailpp
+msgid "Passwort anfordern"
+msgstr "request password"
+
+#: mail-post-password.php:313
+#@ mailpp
+msgid "Grundeinstellungen"
+msgstr "Basic Settings"
+
+#: mail-post-password.php:314
+#@ mailpp
+msgid "Nutzer_innen"
+msgstr "Users"
+
+#: mail-post-password.php:317
+#@ mailpp
+msgid "Passwort (manuell)"
+msgstr "password (manual)"
+
+#: mail-post-password.php:318
+#@ mailpp
+msgid "Änderungsinterval"
+msgstr "change interval"
+
+#: mail-post-password.php:319
+#@ mailpp
+msgid "Interval (benutzerdef.)"
+msgstr "custom interval"
+
+#: mail-post-password.php:320
+#@ mailpp
+msgid "Aktiviere Domains"
+msgstr "activate domains"
+
+#: mail-post-password.php:321
+#@ mailpp
+msgid "Domains"
+msgstr "domains"
+
+#: mail-post-password.php:322
+#@ mailpp
+msgid "Aktiviere E-Mail-Adressen"
+msgstr "activate email addresses"
+
+#: mail-post-password.php:323
+#@ mailpp
+msgid "E-Mail-Adressen"
+msgstr "email addresses"
+
+#: mail-post-password.php:332
+#@ mailpp
+msgid "automatisch"
+msgstr "automatically"
+
+#: mail-post-password.php:333
+#@ mailpp
+msgid "manuell"
+msgstr "manually"
+
+#: mail-post-password.php:346
+#@ mailpp
+msgid "stündlich"
+msgstr "hourly"
+
+#: mail-post-password.php:347
+#@ mailpp
+msgid "zweimal täglich"
+msgstr "twice daily"
+
+#: mail-post-password.php:348
+#@ mailpp
+msgid "täglich"
+msgstr "daily"
+
+#: mail-post-password.php:349
+#@ mailpp
+msgid "wöchentlich"
+msgstr "weekly"
+
+#: mail-post-password.php:350
+#@ mailpp
+msgid "monatlich"
+msgstr "monthly"
+
+#: mail-post-password.php:351
+#@ mailpp
+msgid "benutzerdefniert"
+msgstr "custom"
+
+#: mail-post-password.php:371
+#@ mailpp
+msgid "8 bis 20 Zeichen"
+msgstr "8 to 20 character"
+
+#: mail-post-password.php:377
+#@ mailpp
+msgid ""
+"Nutzer_innen durch hinterlegen von Domainendungen (teil rechts vom @-Zeichen einer E-Mail-Adresse) oder durch hinterlegen der E-Mail-Adresse(n) erlauben das aktuelle Passwort anzufordern. \n"
+"\t<br><strong>Achtung:</strong> Ist z.B. im Feld Domainendungen gmx.de hinterlegt können alle Personen mit einer @gmx.de E-Mail-Adresse Passwörter per E-Mail anfordern!"
+msgstr "Permit users by deposit of domain endings (part right of the @ sign of a e-mail address) or by deposit of the e-mail address to request the password. \\ n \\ t <br> <strong> Note: </ strong> If you deposit the domain ending gmx.de for example all individuals owning a gmx.de email are allowed to request passwords by mail!"
+
+#: mail-post-password.php:401
+#@ mailpp
+msgid "Jede Domain in einer neuen Zeile. Beispiel: yourdomain.com"
+msgstr "Each domain in a new line. Example: yourdomain.com"
+
+#: mail-post-password.php:409
+#@ mailpp
+msgid "Jede E-Mail-Adresse in einer neuen Zeile. Beispiel: mail@yourdomain.com"
+msgstr "Each email in a new line. Example: mail@yourdomain.com"
+
+#: mail-post-password.php:413
+#@ mailpp
+msgid "Intervall in welchem das Passwort automtisch erzeugt oder durch das manuelle Passwort überschrieben wird. Ein kurzes Änderungsinterval in Verbindung mit einem automatischem Passwort bietet eine höhere Sicherheit."
+msgstr "Time interval in which the password is automatically overwritten by the generated password or the manual password. A short interval is more secure."
+
+#: mail-post-password.php:424
+#@ default
+msgid "Settings saved."
+msgstr ""
+
