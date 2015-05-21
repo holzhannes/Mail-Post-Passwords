@@ -26,7 +26,7 @@ Selected email addresses AND/OR domain endings are allowed to receive Wordpress 
 
 = languages =
 * German (holzhannes)
-* English (to do)
+* English (holzhannes)
 
 = please note =
 You use this plugin on our own risk. This is a new plugin and still under development. I have tested the plugin a lot and it seems to work well. If you find any bugs please let me know. 
