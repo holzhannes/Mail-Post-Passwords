@@ -5,7 +5,7 @@ Description: Das Passwort welches für Beiträge oder Seiten erstellt wurde kann
 Author: holzhannes
 Version: 1.0
 Min WP Version: 4.1
-Max WP Version: 4.1.1
+Max WP Version: 4.2.2
 Text Domain: mailpp
 Domain Path: /lang
 */
