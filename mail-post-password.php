@@ -3,7 +3,7 @@
 Plugin Name: Mail Post Passwords
 Description: Das Passwort welches für Beiträge oder Seiten erstellt wurde kann von bestimmten Nutzern (hinterlegte E-Mail-Adressen, oder Domainendung) angefordert werden. In der E-Mail erhalten die Personen dann das Passwort. Falls das Plugin Post Password Token installiert ist enhält die E-Mail auch einen direkten Link. Achtung dieses Plugin setzt für alle Beiträge und Seiten das gleiche Passwort. Das Plugin erneuert dieses Passwort in fest einstellbaren Abständen.  
 Author: holzhannes
-Version: 1.0
+Version: 1.0.1
 Min WP Version: 4.1
 Max WP Version: 4.2.2
 Text Domain: mailpp
@@ -54,7 +54,7 @@ function mailpp_change_post_passwords(  ) {
 	if ($options['mailpp_pwmode'] == '2' ) {
 		if (strlen($options['mailpp_fixedpw']) >= 8 && strlen($options['mailpp_pfixedpw']) <= 20) {$new_password = $options['mailpp_fixedpw'];} //check if string is long enough
 	}
-	$wpdb->query("UPDATE ".$wpdb->posts." SET post_password = '$new_password' WHERE post_password != ''");
+	$wpdb->query( $wpdb->prepare( "UPDATE $wpdb->posts SET post_password = %s WHERE post_password != %s", $new_password , '') );
 }
 add_action('mailpp_cron_job','mailpp_change_post_passwords');
 

@@ -48,6 +48,9 @@ none
 
 == Changelog ==
 = 1.0 =
+* first initial version
+= 1.0.1 =
+* fixed some reported sql injection vulnerability
 
 == Upgrade Notice ==
 none
